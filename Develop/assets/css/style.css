@@ -95,6 +95,30 @@ aside.benefits {
     background-color: #2589bd;
 }
 
+
+/* Consolidate these 3 different selectors properties and values in to one. */
+/*.search-engine-optimization, .online-reputation-management, .social-media-marketing{*/
+    section.content div{
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+    
+    /* Consolidate element and class selector with decendent of those selector. */
+    section.content div img {
+        max-height: 200px;
+    }
+    
+    /* Consolidate these 3 selector with similar properties with similar values into one */
+    /*.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {*/
+    section.content div h2{   
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    
 /*.benefit-lead, .benefit-brand, .benefit-cost {*/
 /*Consolidate element selector with class selector with a decendent of those selector*/
 aside.benefits div{
@@ -111,29 +135,6 @@ aside.benefits div img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Consolidate these 3 different selectors properties and values in to one. */
-/*.search-engine-optimization, .online-reputation-management, .social-media-marketing{*/
-section.content div{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Consolidate element and class selector with decendent of those selector. */
-section.content div img {
-    max-height: 200px;
-}
-
-/* Consolidate these 3 selector with similar properties with similar values into one */
-/*.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {*/
-section.content div h2{   
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* changing class selector to element selector*/
